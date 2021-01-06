@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-sm">
+    <ul class="nav nav-tabs">
+      {{#each templateData.tabs}}
+      <li class="nav-item">
+        <a class="nav-link {{#if (equals @index ../activeTabIndex)}}active{{/if}}" href="{{{href}}}">{{{content}}}</a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

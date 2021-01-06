@@ -1,0 +1,24 @@
+{
+  "name": "my-node-user-app",
+  "version": "1.0.0",
+  "description": "User application with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user-application",
+    "node",
+    "express",
+    "handlebars",
+    "bootstrap"
+  ],
+  "author": "Sundar Raman Sudharsanam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}

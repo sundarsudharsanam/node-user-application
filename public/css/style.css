@@ -1,0 +1,29 @@
+body {
+  padding: 20px 0;
+}
+
+.top-nav {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  height: 75vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.main-content a {
+  text-decoration: none;
+}
+
+.home-content {
+  margin-top: 20px;
+}
+
+.row-user-details {
+  margin-bottom: 10px;
+}
+
+.footer .icon-user {
+  height: 24px;
+}
