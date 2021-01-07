@@ -6,7 +6,7 @@ const hbs = require('hbs');
 const getUsers = require('./utils/users');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const tabIndex = {
   HOME: 0,
